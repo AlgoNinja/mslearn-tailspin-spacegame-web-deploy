@@ -53,6 +53,3 @@ steps:
 
 - publish: '$(Build.ArtifactStagingDirectory)'
   artifact: drop
-
-
-  - stage: 'Deploy'
